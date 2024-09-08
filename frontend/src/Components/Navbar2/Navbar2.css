@@ -1,0 +1,9 @@
+.header .heading h2 {
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.header .heading h2 span {
+    color: rgb(255, 193, 7);
+}

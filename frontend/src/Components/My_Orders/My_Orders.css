@@ -1,0 +1,29 @@
+.my-orders  {
+    display: flex;
+    padding-top: 25vh;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    /* height: 100vh; */
+    width: 100vw;
+}
+.my-orders .my_orders_form{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.my_orders_form h2{
+    font-size: 40px;
+    float: left;
+}
+.my_orders_form h2 span{
+    color: rgb(255, 193, 7);
+}
+table{
+    width: 100%;
+}
+table button:disabled{
+    visibility: hidden;
+}
